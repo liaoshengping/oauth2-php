@@ -1,6 +1,7 @@
 # 单点登录SSO
 开发准备：
 先执行：composer update
+
 1.数据库导入
 
 2.在service.php 设置数据库信息
