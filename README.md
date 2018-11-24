@@ -1,15 +1,20 @@
 # 单点登录SSO
 开发准备：
 1.数据库导入
+
 2.在service.php 设置数据库信息
+
 3.notice：在host 设置oauth2.com 指向本地
 
 获取access_token
 http://oauth2.com/token.php
 
 post参数：
+
 client_id：testclient
+
 client_secret：testpass
+
 grant_type：client_credentials  //授权模式
 
 结果：
@@ -33,7 +38,7 @@ http://oauth2.com/authorize.php?response_type=code&client_id=testtest&state=%E8%
 2.用这个code 去换 access_token
 http://oauth2.com/token.php
 
-#post参数：
+post参数：
 
 client_id：testclient
 
