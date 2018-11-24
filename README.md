@@ -33,7 +33,8 @@ http://oauth2.com/authorize.php?response_type=code&client_id=testtest&state=%E8%
 2.用这个code 去换 access_token
 http://oauth2.com/token.php
 
-post参数：
+#post参数：
+
 client_id：testclient
 
 client_secret：testpass
