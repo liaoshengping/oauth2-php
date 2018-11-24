@@ -1,0 +1,12 @@
+{
+    "name": "liaosp/oauth2",
+    "authors": [
+        {
+            "name": "liaosp",
+            "email": "runsp@gitee.com"
+        }
+    ],
+    "require": {
+        "bshaffer/oauth2-server-php": "^1.10"
+    }
+}
