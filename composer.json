@@ -7,6 +7,7 @@
         }
     ],
     "require": {
-        "bshaffer/oauth2-server-php": "^1.10"
+        "bshaffer/oauth2-server-php": "^1.10",
+        "predis/predis": "dev-master"
     }
 }
