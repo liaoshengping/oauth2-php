@@ -35,9 +35,14 @@ http://oauth2.com/token.php
 
 post参数：
 client_id：testclient
+
 client_secret：testpass
+
 grant_type：authorization_code  //授权模式
+
 code：刚刚获取的code
+
+
 如果成功：
 {
   "access_token": "e07ff1efcf82d8351d4ea55b79d9d64a77239231",
