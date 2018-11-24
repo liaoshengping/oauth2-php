@@ -64,6 +64,23 @@ code：刚刚获取的code
 
 composer require bshaffer/oauth2-server-php
 
+# 如果用redis做储存
+
+composer require predis/predis:dev-master
+
+在server.php 中添加 同时把pdo 连接的注释掉
+
+比如添加一个用户的时候，同时也要更新redis 中的数据。这么初始化一个clinetid 为testtest ，和pdo获取的一样
+
+$predis = new \Predis\Client(['scheme' =>'tcp',' host' =>'localhost','port' =>6379]);
+
+$storage = new OAuth2\Storage\Redis($predis);
+
+$storage->setClientDetails('testtest', 'testpass', 'http://baidu.com/','client_credentials','trut');
+
+
+
+
 
 
 
