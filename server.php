@@ -21,7 +21,7 @@ OAuth2\Autoloader::register();
 //$storage = new OAuth2\Storage\Redis($predis);
 //$storage->setClientDetails('testtest', 'testpass', 'http://baidu.com/','client_credentials','trut');
 
-//如果是密码模式：
+//如果是密码模式：如果使用其他运行内存则放开，数据库模式不要运行
 // create some users in memory
 //$users = array('bshaffer' => array('password' => 'brent123', 'first_name' => 'Brent', 'last_name' => 'Shaffer'));
 
