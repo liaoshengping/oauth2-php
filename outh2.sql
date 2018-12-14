@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50553
 File Encoding         : 65001
 
-Date: 2018-11-24 10:10:36
+Date: 2018-12-14 11:57:08
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -76,6 +76,26 @@ INSERT INTO `oauth_access_tokens` VALUES ('0e90432b4d5206f27d6b5fbbbdf272011a2f6
 INSERT INTO `oauth_access_tokens` VALUES ('d11850067f77e366686c3095a66a490b8f4bacad', 'testclient', null, '2018-11-23 11:30:07', null);
 INSERT INTO `oauth_access_tokens` VALUES ('724d61ece66f293e40d2265808dacaa73320137d', 'admin', null, '2018-11-24 01:41:40', null);
 INSERT INTO `oauth_access_tokens` VALUES ('475187cff30e0a137ba8828576a6693640e5c31b', 'admin', null, '2018-11-24 01:41:50', null);
+INSERT INTO `oauth_access_tokens` VALUES ('a162a7ba26bfc5001551c9a661ac680ef6a396c7', 'testclient', null, '2018-11-24 03:19:19', null);
+INSERT INTO `oauth_access_tokens` VALUES ('ebd67ce7b94911cc2439e608c72d0fd1debcf417', 'testclient', null, '2018-11-24 03:32:32', null);
+INSERT INTO `oauth_access_tokens` VALUES ('2319204de586310ee41eecf20d420e27f1cf9a41', 'testclient', null, '2018-11-24 03:32:36', null);
+INSERT INTO `oauth_access_tokens` VALUES ('89cec9868a24918280734ae2901c2ccfff5c8bd4', 'testclient', null, '2018-11-24 03:36:16', null);
+INSERT INTO `oauth_access_tokens` VALUES ('e07ff1efcf82d8351d4ea55b79d9d64a77239231', 'testtest', null, '2018-11-24 03:38:39', null);
+INSERT INTO `oauth_access_tokens` VALUES ('f7a959d2d7613d9ca95e7a26799d732b344d02af', 'testtest', null, '2018-11-24 05:24:18', null);
+INSERT INTO `oauth_access_tokens` VALUES ('c7d951751024db25cea0168f7242d6bd68045ea3', 'testtest', null, '2018-11-24 05:42:49', null);
+INSERT INTO `oauth_access_tokens` VALUES ('3c96b860b5dae4c1d01e305e50de25460ab0989c', 'testtest', null, '2018-11-24 05:47:33', null);
+INSERT INTO `oauth_access_tokens` VALUES ('7a6f0f1a527afe52306e5cc2417a9c8d3d7276c1', 'testtest', null, '2018-11-24 05:47:43', null);
+INSERT INTO `oauth_access_tokens` VALUES ('f421002284db52d2634ddf79d7429e0d6c08a813', 'testtest', null, '2018-12-13 09:52:14', null);
+INSERT INTO `oauth_access_tokens` VALUES ('c4c8a45d88cef2a7d00561974573e883a06d5846', 'testtest', null, '2018-12-13 09:52:37', null);
+INSERT INTO `oauth_access_tokens` VALUES ('13acf5242b0edc8c7ddd757a85d57eba9b24ed8b', 'testclient', null, '2018-12-13 10:30:48', null);
+INSERT INTO `oauth_access_tokens` VALUES ('43c72054bc6e24e018fc187715951cf3e24a492f', 'testclient', null, '2018-12-13 10:30:53', null);
+INSERT INTO `oauth_access_tokens` VALUES ('4c7a19b51952fb018173b82cedd8621bc5bc507d', 'testclient', 'kefong', '2018-12-13 10:35:20', null);
+INSERT INTO `oauth_access_tokens` VALUES ('57be5bfa8bac257546c950d5bfa0d88609f9a29b', 'testclient', 'kefong', '2018-12-13 10:40:15', null);
+INSERT INTO `oauth_access_tokens` VALUES ('f4161d9b4ae80a5010cc57df65514bcf98f5c88b', 'testclient', 'kefong', '2018-12-14 01:37:46', null);
+INSERT INTO `oauth_access_tokens` VALUES ('42e9ca68d9a8b5bf36641c0e40c87555d4ce5232', 'testclient', 'kefong', '2018-12-14 01:38:09', null);
+INSERT INTO `oauth_access_tokens` VALUES ('c6f4996f6343b70561b2402c31c635698f698422', 'testclient', 'kefong', '2018-12-14 01:38:14', null);
+INSERT INTO `oauth_access_tokens` VALUES ('53a430d48bc78ad3bda07f5981581396f21cf9af', 'testclient', 'kefong', '2018-12-14 01:38:15', null);
+INSERT INTO `oauth_access_tokens` VALUES ('da9ab7b32f928f0e1914de864046f957388d0917', 'testclient', 'kefong', '2018-12-14 02:56:51', null);
 
 -- ----------------------------
 -- Table structure for oauth_authorization_codes
@@ -118,6 +138,9 @@ INSERT INTO `oauth_authorization_codes` VALUES ('a0e5db7135b6185a3908f8741d90e64
 INSERT INTO `oauth_authorization_codes` VALUES ('f2f76ecd2068f73eccd2c60104c4d9b64ea98355', 'testtest', null, null, '2018-11-24 00:59:03', null, null);
 INSERT INTO `oauth_authorization_codes` VALUES ('285606087090f47412314a82df440daef15e587e', 'testtest', null, null, '2018-11-24 01:01:25', null, null);
 INSERT INTO `oauth_authorization_codes` VALUES ('b248bdc7f744c4bc9dbbd85c940df584ab007f67', 'testtest', null, null, '2018-11-24 02:08:39', null, null);
+INSERT INTO `oauth_authorization_codes` VALUES ('5dfec5b5fabd276f414116ab087d7137a17824e3', 'testtest', null, null, '2018-11-24 02:36:40', null, null);
+INSERT INTO `oauth_authorization_codes` VALUES ('9dcc491d5b4eb62cfb51e612552943a4b54df030', 'testtest', null, null, '2018-11-24 02:37:23', null, null);
+INSERT INTO `oauth_authorization_codes` VALUES ('2b118927fa7f1674884552af22dc4a47134519a4', 'testtest', null, null, '2018-11-24 03:01:41', null, null);
 
 -- ----------------------------
 -- Table structure for oauth_clients
@@ -206,6 +229,15 @@ INSERT INTO `oauth_refresh_tokens` VALUES ('7529ae47fe559d013bd56c87b8c2bb549922
 INSERT INTO `oauth_refresh_tokens` VALUES ('4ab2c16aed01b06060fa9f3567b4f2d760c70a20', 'testclient', null, '2018-12-07 09:48:11', null);
 INSERT INTO `oauth_refresh_tokens` VALUES ('309b73fe4abf02089353468e8b6b9fd5e9169762', 'testclient', null, '2018-12-07 10:29:29', null);
 INSERT INTO `oauth_refresh_tokens` VALUES ('f8cb5f45482b33e9dab9d2dae03c781b5da782cd', 'testclient', null, '2018-12-07 10:30:07', null);
+INSERT INTO `oauth_refresh_tokens` VALUES ('e71c1b23f146f50cf1d3db721a64bf4efb845f2c', 'testtest', null, '2018-12-08 02:38:39', null);
+INSERT INTO `oauth_refresh_tokens` VALUES ('62c0919f164930124ca1275f1ceee78e63af92a7', 'testtest', null, '2018-12-22 03:24:18', null);
+INSERT INTO `oauth_refresh_tokens` VALUES ('d2c6394529b254bd88def68aff1fd91aa7866920', 'testclient', 'kefong', '2019-01-10 10:34:20', null);
+INSERT INTO `oauth_refresh_tokens` VALUES ('d92b2fb6096f2097997922e4b189314bde62f727', 'testclient', 'kefong', '2019-01-10 10:39:15', null);
+INSERT INTO `oauth_refresh_tokens` VALUES ('3c42225c71ef9500aee89451676fb881a5f67568', 'testclient', 'kefong', '2019-01-11 01:36:46', null);
+INSERT INTO `oauth_refresh_tokens` VALUES ('42a6bd5f54394364feccdb94210f741ba7596c06', 'testclient', 'kefong', '2019-01-11 01:37:09', null);
+INSERT INTO `oauth_refresh_tokens` VALUES ('3c674cb1f8287da76bc16655ad081cf69beee773', 'testclient', 'kefong', '2019-01-11 01:37:14', null);
+INSERT INTO `oauth_refresh_tokens` VALUES ('67d7029299f820e88036121d740b16005fe4c296', 'testclient', 'kefong', '2019-01-11 01:37:15', null);
+INSERT INTO `oauth_refresh_tokens` VALUES ('addb5666afee5bdfb8586a4ae850261a36d52b01', 'testclient', 'kefong', '2019-01-11 02:55:51', null);
 
 -- ----------------------------
 -- Table structure for oauth_scopes
@@ -238,3 +270,4 @@ CREATE TABLE `oauth_users` (
 -- ----------------------------
 -- Records of oauth_users
 -- ----------------------------
+INSERT INTO `oauth_users` VALUES ('kefong', '7c4a8d09ca3762af61e59520943dc26494f8941b', null, null, null, null, null);
