@@ -8,7 +8,7 @@
  * 2:
  * ...
  */
-$dsn      = 'mysql:dbname=outh2;host=localhost';
+$dsn      = 'mysql:dbname=outh2;host=127.0.0.1';
 $username = 'root';
 $password = 'root';
 ini_set('display_errors',1);error_reporting(E_ALL);
