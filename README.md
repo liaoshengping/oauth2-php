@@ -62,8 +62,7 @@ code：刚刚获取的code
 
 
 
-# If you finish，Congratulations！！！！Welcome to the stars
-
+# Congratulations
 composer require bshaffer/oauth2-server-php
 
 # 如果用redis做储存
