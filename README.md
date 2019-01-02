@@ -1,4 +1,4 @@
-# 单点登录SSO
+# 单点登录
 开发准备：
 先执行：composer update
 
