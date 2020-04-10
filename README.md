@@ -84,14 +84,5 @@ $predis = new \Predis\Client(['scheme' =>'tcp',' host' =>'localhost','port' =>63
 $storage = new OAuth2\Storage\Redis($predis);
 
 $storage->setClientDetails('testtest', 'testpass', 'http://baidu.com/','client_credentials','trut');
-···
 
-
-
-
-
-
-
-
-
-
+```
