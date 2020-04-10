@@ -42,6 +42,7 @@ http://oauth2.com/token.php
 
 post参数：
 
+```
 client_id：testclient
 
 client_secret：testpass
@@ -49,9 +50,11 @@ client_secret：testpass
 grant_type：authorization_code  //授权模式
 
 code：刚刚获取的code
+```
 
 
 如果成功：
+```
 {
   "access_token": "e07ff1efcf82d8351d4ea55b79d9d64a77239231",
   "expires_in": 3600,
@@ -60,24 +63,30 @@ code：刚刚获取的code
   "refresh_token": "e71c1b23f146f50cf1d3db721a64bf4efb845f2c"
 }
 
+```
+
 
 
 # Congratulations
 composer require bshaffer/oauth2-server-php
 
 # 如果用redis做储存
-
+```
 composer require predis/predis:dev-master
-
+```
 在server.php 中添加 同时把pdo 连接的注释掉
 
 比如添加一个用户的时候，同时也要更新redis 中的数据。这么初始化一个clinetid 为testtest ，和pdo获取的一样
 
+```
 $predis = new \Predis\Client(['scheme' =>'tcp',' host' =>'localhost','port' =>6379]);
 
 $storage = new OAuth2\Storage\Redis($predis);
 
 $storage->setClientDetails('testtest', 'testpass', 'http://baidu.com/','client_credentials','trut');
+···
+
+
 
 
 
