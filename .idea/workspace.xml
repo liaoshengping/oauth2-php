@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f031339-82e7-4848-8180-b0757f9fe3a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/file/auth2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file/image.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc.psd" beforeDir="false" afterPath="$PROJECT_DIR$/file/mvc.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/file/mvc2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oauth2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/file/oauth2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oauth2.psd" beforeDir="false" afterPath="$PROJECT_DIR$/file/oauth2.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/oauth2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/file/oauth2.jpg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/vendor/bshaffer/oauth2-server-php/" />
     <ignored path="$PROJECT_DIR$/vendor/composer/" />
@@ -40,11 +36,6 @@
               <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/file/oauth2.jpg">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -86,12 +77,22 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1026">
-                <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+              <first_editor relative-caret-position="297">
+                <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/file/oauth2.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/file/mvc2.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -170,13 +171,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/file" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\linuxdir\php\oauth2-php\file" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\linuxdir\php\oauth2-php\file" />
       <recent name="E:\linuxdir\php\oauth2-php" />
     </key>
   </component>
@@ -202,12 +204,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603336281719</updated>
-      <workItem from="1603336282920" duration="5752000" />
+      <workItem from="1603336282920" duration="6036000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5752000" />
+    <option name="totallyTimeSpent" value="6036000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -249,9 +251,6 @@
     <entry file="file://$PROJECT_DIR$/file/oauth2.psd">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/file/oauth2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/token.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -290,9 +289,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/file/mvc2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/resource.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -300,11 +296,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/file/mvc2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file/oauth2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1026">
-            <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <first_editor relative-caret-position="297">
+            <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           </first_editor>
           <second_editor />
         </state>
