@@ -67,7 +67,7 @@ code：刚刚获取的code
 
 ```
 
-#验证token是否有效
+# 验证token是否有效
 
 http://oauth2.com/users.php?access_token=你之前获取的access_token
 
