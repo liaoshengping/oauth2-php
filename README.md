@@ -1,3 +1,5 @@
+
+！[](file/auth2.jpg)
 # client_credentials登录
 开发准备：
 先执行：composer update
@@ -35,6 +37,7 @@ grant_type：client_credentials
 
 http://oauth2.com/authorize.php?response_type=code&client_id=testclient&state=%E8%BF%99%E4%B8%AA%E6%98%AF%E4%BD%A0%E8%A6%81%E5%B8%A6%E7%9A%84%E5%8F%82%E6%95%B0
 
+![auth2-php-server](file/image.gif)
 点击授权
 
 得到一个code
@@ -71,7 +74,11 @@ code：刚刚获取的code
 
 http://oauth2.com/users.php?access_token=你之前获取的access_token
 
-# Congratulations
+# 资料
+
+https://bshaffer.github.io/oauth2-server-php-docs/
+
+
 composer require bshaffer/oauth2-server-php
 
 # 如果用redis做储存
