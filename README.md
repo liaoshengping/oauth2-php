@@ -1,5 +1,5 @@
 
-！[](file/auth2.jpg)
+![auth2-php-server](file/oauth2.jpg)
 # client_credentials登录
 开发准备：
 先执行：composer update

@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f031339-82e7-4848-8180-b0757f9fe3a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/image.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file/auth2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file/image.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc.psd" beforeDir="false" afterPath="$PROJECT_DIR$/file/mvc.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/file/mvc2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/file/oauth2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2.psd" beforeDir="false" afterPath="$PROJECT_DIR$/file/oauth2.psd" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/vendor/bshaffer/oauth2-server-php/" />
     <ignored path="$PROJECT_DIR$/vendor/composer/" />
@@ -32,23 +37,18 @@
         <entry file="file://$PROJECT_DIR$/resource.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="243">
-              <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mvc2.jpg">
+        <entry file="file://$PROJECT_DIR$/file/oauth2.jpg">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oauth2.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oauth2.psd">
+        <entry file="file://$PROJECT_DIR$/file/oauth2.psd">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
@@ -86,8 +86,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="81">
-                <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+              <first_editor relative-caret-position="1026">
+                <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
               </first_editor>
               <second_editor />
             </state>
@@ -98,7 +98,7 @@
         <entry file="file://$PROJECT_DIR$/auth.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
-              <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -156,6 +156,11 @@
               <item name="oauth2-php" type="b2602c69:ProjectViewProjectNode" />
               <item name="oauth2-php" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="oauth2-php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oauth2-php" type="462c0819:PsiDirectoryNode" />
+              <item name="file" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -168,6 +173,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\linuxdir\php\oauth2-php\file" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\linuxdir\php\oauth2-php" />
     </key>
@@ -194,24 +202,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603336281719</updated>
-      <workItem from="1603336282920" duration="5502000" />
+      <workItem from="1603336282920" duration="5752000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5502000" />
+    <option name="totallyTimeSpent" value="5752000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.159436" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.159436" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -239,20 +246,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resource.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oauth2.psd">
+    <entry file="file://$PROJECT_DIR$/file/oauth2.psd">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/oauth2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc2.jpg">
+    <entry file="file://$PROJECT_DIR$/file/oauth2.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/token.php">
@@ -279,7 +276,7 @@
     <entry file="file://$PROJECT_DIR$/auth.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -293,11 +290,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/file/mvc2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="81">
-            <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <first_editor relative-caret-position="1026">
+            <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
           </first_editor>
           <second_editor />
         </state>
