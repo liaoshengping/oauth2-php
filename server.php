@@ -8,9 +8,9 @@
  * 2:
  * ...
  */
-$dsn      = 'mysql:dbname=outh2;host=127.0.0.1';
+$dsn      = 'mysql:dbname=outh2;host=192.168.205.20';
 $username = 'root';
-$password = 'root';
+$password = '123456';
 ini_set('display_errors',1);error_reporting(E_ALL);
 require_once('vendor/autoload.php');
 OAuth2\Autoloader::register();
@@ -36,7 +36,7 @@ $storage = new OAuth2\Storage\Pdo(array('dsn' => $dsn, 'username' => $username, 
 //设置刷新token，同时设置时间过期为28天
 $server = new OAuth2\Server($storage,array(
     'refresh_token_lifetime'         => 2419200,
-    'access_lifetime'        => 60,//调试开启60秒
+    'access_lifetime'        => 3600,//调试开启60秒
 ));
 $grantType = new OAuth2\GrantType\UserCredentials($storage);
 // add the grant type to your OAuth server
